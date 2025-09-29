@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter / notebooks
+.ipynb_checkpoints
+
+# Data
+data/
+!data/.gitkeep   # keep folder tracked but ignore CSVs
+
+# Model artifacts
+model/*.joblib
+!model/.gitkeep  # keep folder tracked but ignore model files
+
+# Logs
+*.log
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
